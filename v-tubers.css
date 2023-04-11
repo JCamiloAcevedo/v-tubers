@@ -1,0 +1,173 @@
+body{
+    background: #1e1d2b;
+    background-image: url("img/kroni.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo{
+    font-size: 25px;
+    top: 16px;
+    position: absolute;
+    left: 16px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+
+nav {
+    background-color: transparent;
+    overflow: hidden;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #111;
+}
+
+
+#titulo {
+    color: #ff702a;
+    position: relative;
+    top: 65px;
+}
+
+.text-white{
+    position: relative;
+    top: 65px;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    bottom: 65px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .nav ul {
+      display: none;
+    }
+
+    body{
+        background: #1e1d2b;
+        background-image: url("img/kroni.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .header a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #logo{
+        display: none;
+        font-size: 25px;
+        top: 16px;
+        position: absolute;
+        left: 16px;
+    }
+    
+    nav .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        padding: 14px 16px;
+        text-decoration: none;
+      }  
+    
+    nav {
+        background-color: transparent;
+        overflow: hidden;
+    }
+      
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+    }
+      
+    nav li {
+        float: left;
+    }
+      
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+    nav li a:hover {
+        background-color: #111;
+    }
+    
+    
+    #titulo {
+        color: #ff702a;
+        position: relative;
+        top: 65px;
+    }
+    
+    .text-white{
+        position: relative;
+        top: 65px;
+    }
+    
+    p {
+        margin-bottom: 1.6em;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        position: relative;
+        bottom: 65px;
+        left: 10px;
+    }
+}  
+  

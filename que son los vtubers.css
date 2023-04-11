@@ -1,0 +1,288 @@
+body{
+    background: #1e1d2b;
+    background-image: url("img/mumei.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo{
+    font-size: 25px;
+    top: 16px;
+    position: absolute;
+    left: 16px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+
+nav {
+    background-color: transparent;
+    overflow: hidden;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    height: 3.125em;
+    font-size: 3.125em;
+    margin-top: 18px;
+    line-height: 1.6em;
+    color: #ff702a;
+    right: 15px;
+    position: absolute;
+    top: 109px;
+}
+
+h2 {
+    color: #fff;
+    position: absolute;
+    top: 208px;
+    right: 2px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+
+.titulo{
+    height: 3.125em;
+    font-size: 3.125em;
+    margin-top: 18px;
+    line-height: 1.6em;
+    color: #ff702a;
+    left: 15px;
+    position: absolute;
+    top: 485px;
+}
+
+.Sparrafo {
+    color: #fff;
+    position: absolute;
+    top: 568px;
+    left: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+#textouno {
+    position: relative;
+    left: -85px;
+    -webkit-text-stroke: 0.5px #111;
+}
+
+#textodos {
+    position: relative;
+    left: 65px;
+    -webkit-text-stroke: 0.5px #111;
+
+}
+
+#foto {
+    top: 14px;
+    left: 30px;
+    position: relative;
+}
+
+.col-lg-8 {
+    display: flex;
+    margin-left: 34.6875em;
+    height: 9.6875em;
+    flex-direction: column;
+    margin-right: 0.9375em;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 25px;
+    right: 145px;
+    width: 240px;
+}
+
+
+#kizuna {
+    position: relative;
+    right: -305px;
+    bottom: 185px;
+}
+
+@media screen and (max-width: 950px) {
+    .nav ul {
+      display:list-item;
+    }
+
+    body{
+        background: #1e1d2b;
+        background-image: url("img/mumei.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logo {
+        max-width: 750px; 
+        display: none;
+        font-size: 25px;
+        top: 16px;
+        position: absolute;
+        left: 16px;
+    }
+    
+    nav .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        padding: 14px 16px;
+        text-decoration: none;
+      }  
+    
+    nav {
+        background-color: #333;
+        overflow: hidden;
+    }
+      
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+    }
+      
+    nav li {
+        float: left;
+    }
+      
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+    nav li a:hover {
+        background-color: #111;
+    }
+
+    h1 {
+        height: 3.125em;
+        font-size: 3.125em;
+        margin-top: 18px;
+        line-height: 1.6em;
+        color: #ff702a;
+        right: 15px;
+        position: absolute;
+        top: 109px;
+    }
+    
+    h2 {
+        color: #fff;
+        position: absolute;
+        top: 208px;
+        right: 2px;
+        text-align: justify;
+        font-size: 17px;
+    }
+    
+    
+    .titulo{
+        height: 3.125em;
+        font-size: 3.125em;
+        margin-top: 18px;
+        line-height: 1.6em;
+        color: #ff702a;
+        left: 15px;
+        position: absolute;
+        top: 485px;
+    }
+    
+    .Sparrafo {
+        color: #fff;
+        position: absolute;
+        top: 568px;
+        left: 15px;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    p {
+        margin-bottom: 1.6em;
+    }
+    
+    #textouno {
+        position: relative;
+        left: 5px;
+        -webkit-text-stroke: 0.5px #111;
+        top: 120px;
+    }
+    
+    #textodos {
+        position: relative;
+        left: 5px;
+        -webkit-text-stroke: 0.5px #111;
+        bottom: -55px;
+    
+    }
+    
+    #foto {
+        top: 100px;
+        left: 3px;
+        position: relative;
+    }
+    
+    .col-lg-8 {
+        display: flex;
+        margin-left: 34.6875em;
+        height: 9.6875em;
+        flex-direction: column;
+        margin-right: 0.9375em;
+        margin-bottom: 0;
+        position: absolute;
+        bottom: 25px;
+        right: 145px;
+        width: 240px;
+    }
+    
+    
+    #kizuna {
+        position: relative;
+        right: -95px;
+        bottom: -58px;
+    }
+}  
